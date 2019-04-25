@@ -70,6 +70,7 @@ about:
     On Unix systems, the betweenness, Key Players, and bridging implementations are
     parallelized with OpenMP, which may run faster on systems which have OpenMP configured.
   license_family: GPL2
+  license_file: '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-2'
 
 extra:
   recipe-maintainers:
